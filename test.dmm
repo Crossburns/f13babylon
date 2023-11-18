@@ -1,0 +1,30 @@
+"a" = (/turf/open/indestructible/ground/outside/desert,/area/f13/wasteland)
+"x" = (/obj/item/wallframe/intercom,/turf/open/indestructible/ground/outside/desert,/area/f13/wasteland)
+"B" = (/obj/item/radio/intercom,/turf/closed/wall/r_wall,/area/f13/wasteland)
+"U" = (/obj/item/wallframe/intercom,/turf/closed/wall/r_wall,/area/f13/wasteland)
+"Y" = (/turf/closed/wall/r_wall,/area/f13/wasteland)
+
+(1,1,1) = {"
+aaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaa
+aaaaYaaaYaaaaaaaaaaaaa
+YYYYBaaaUYYYaaaaaaaaaa
+aaaaaaaaxaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaa
+"}

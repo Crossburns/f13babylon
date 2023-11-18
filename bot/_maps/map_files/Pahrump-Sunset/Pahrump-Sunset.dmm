@@ -865,8 +865,8 @@
 	pixel_y = 6
 	},
 /obj/item/reagent_containers/food/condiment/peppermill{
-	pixel_y = 10;
-	pixel_x = 4
+	pixel_x = 4;
+	pixel_y = 10
 	},
 /turf/open/floor/plasteel/barber{
 	icon = 'icons/turf/f13floors2.dmi';
@@ -1490,12 +1490,12 @@
 "afK" = (
 /obj/structure/table/wood/junk,
 /obj/item/reagent_containers/pill/patch/jet{
-	pixel_y = 15;
-	pixel_x = 5
+	pixel_x = 5;
+	pixel_y = 15
 	},
 /obj/item/reagent_containers/pill/floorpill{
-	pixel_y = 5;
-	pixel_x = -5
+	pixel_x = -5;
+	pixel_y = 5
 	},
 /turf/open/indestructible/ground/outside/dirt{
 	dir = 4;
@@ -4567,10 +4567,10 @@
 /area/f13/building)
 "asn" = (
 /obj/machinery/light/small{
-	dir = 4;
-	light_color = "red";
 	bulb_colour = "#DE3163";
 	bulb_emergency_colour = "#DE3163";
+	dir = 4;
+	light_color = "red";
 	nightshift_light_color = "#DE3163"
 	},
 /obj/effect/decal/cleanable/dirt/dust,
@@ -6644,6 +6644,11 @@
 	icon_state = "horizontaloutermain0"
 	},
 /area/f13/wasteland/west)
+"azx" = (
+/obj/structure/flora/ausbushes/sparsegrass,
+/obj/structure/flora/tree/jungle,
+/turf/open/indestructible/ground/outside/desert,
+/area/f13/wasteland/bighornbunker)
 "azz" = (
 /obj/structure/reagent_dispensers/barrel/explosive,
 /turf/open/indestructible/ground/outside/sidewalk{
@@ -14295,9 +14300,9 @@
 	dir = 4
 	},
 /obj/structure/railing{
+	dir = 10;
 	layer = 3.3;
-	plane = -3;
-	dir = 10
+	plane = -3
 	},
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
 	name = "metal plating"
@@ -18384,9 +18389,9 @@
 	pixel_y = 3
 	},
 /obj/item/fishy/clownfish{
-	pixel_y = 2;
 	anchored = 1;
-	name = "singing fish"
+	name = "singing fish";
+	pixel_y = 2
 	},
 /turf/closed/wall/mineral/wood,
 /area/f13/building)
@@ -20292,6 +20297,10 @@
 /obj/structure/nest/molerat,
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/caves)
+"bzE" = (
+/obj/structure/flora/ausbushes/lavendergrass,
+/turf/open/indestructible/ground/outside/desert,
+/area/f13/wasteland/bighornbunker)
 "bzH" = (
 /obj/machinery/cell_charger{
 	pixel_y = 5
@@ -20871,6 +20880,12 @@
 	},
 /turf/open/floor/f13/wood,
 /area/f13/building)
+"bMj" = (
+/obj/structure/flora/grass/jungle/b,
+/turf/open/indestructible/ground/outside/road{
+	icon_state = "horizontalinnermain0"
+	},
+/area/f13/wasteland/bighornbunker)
 "bMp" = (
 /obj/structure/barricade/wooden,
 /turf/closed/wall/f13/wood/house,
@@ -24002,6 +24017,10 @@
 	},
 /turf/open/indestructible/ground/outside/sidewalk,
 /area/f13/city/bighorn)
+"cOP" = (
+/obj/structure/flora/junglebush/b,
+/turf/open/indestructible/ground/outside/desert,
+/area/f13/wasteland/bighornbunker)
 "cOR" = (
 /obj/machinery/door/poddoor/shutters/old{
 	id = "factory3";
@@ -24039,10 +24058,10 @@
 	},
 /obj/item/stack/f13Cash/random/ncr/low,
 /obj/machinery/light/small{
-	dir = 1;
-	light_color = "red";
 	bulb_colour = "#DE3163";
 	bulb_emergency_colour = "#DE3163";
+	dir = 1;
+	light_color = "red";
 	nightshift_light_color = "#DE3163"
 	},
 /turf/open/floor/f13/wood,
@@ -24779,11 +24798,8 @@
 /turf/open/floor/f13/wood,
 /area/f13/building/mall)
 "dqx" = (
-/turf/open/indestructible/ground/outside/dirt{
-	dir = 9;
-	icon_state = "dirt"
-	},
-/area/f13/wasteland/quarry)
+/turf/open/indestructible/ground/outside,
+/area/f13/wasteland/east)
 "dqz" = (
 /obj/effect/decal/cleanable/dirt{
 	color = "000000"
@@ -24926,6 +24942,13 @@
 /obj/item/crafting/wonderglue,
 /turf/open/floor/plasteel/f13/vault_floor/dark,
 /area/f13/building/mall)
+"dva" = (
+/obj/structure/flora/junglebush,
+/turf/open/indestructible/ground/outside/sidewalk{
+	dir = 8;
+	icon_state = "outerpavement"
+	},
+/area/f13/wasteland/bighornbunker)
 "dvs" = (
 /obj/machinery/light/small{
 	dir = 1
@@ -25879,6 +25902,10 @@
 	icon_state = "shadowright"
 	},
 /area/f13/wasteland/east)
+"dXJ" = (
+/obj/structure/flora/ausbushes/brflowers,
+/turf/open/indestructible/ground/outside/water,
+/area/f13/wasteland/bighornbunker)
 "dXN" = (
 /turf/closed/wall/f13/wood/house,
 /area/f13/wasteland/east)
@@ -28091,6 +28118,11 @@
 	icon_state = "darkrusty"
 	},
 /area/f13/building/mall)
+"fnY" = (
+/obj/structure/flora/junglebush,
+/obj/structure/flora/junglebush/b,
+/turf/open/indestructible/ground/outside/water,
+/area/f13/wasteland/bighornbunker)
 "foo" = (
 /obj/structure/table/wood/settler,
 /obj/item/flashlight/lamp,
@@ -28405,6 +28437,10 @@
 /obj/structure/flora/ausbushes/brflowers,
 /turf/open/indestructible/ground/outside/savannah,
 /area/f13/wasteland/valley)
+"fxz" = (
+/obj/structure/flora/ausbushes/stalkybush,
+/turf/open/indestructible/ground/outside/water,
+/area/f13/wasteland/bighornbunker)
 "fxF" = (
 /obj/structure/fireplace,
 /turf/open/floor/wood/wood_common,
@@ -28472,6 +28508,7 @@
 /turf/open/floor/f13/wood,
 /area/f13/village)
 "fzB" = (
+/obj/structure/flora/grass/jungle,
 /turf/open/indestructible/ground/outside/sidewalk{
 	dir = 4;
 	icon_state = "outerpavement"
@@ -28777,6 +28814,10 @@
 	icon_state = "outerpavement"
 	},
 /area/f13/wasteland/massfusion)
+"fGP" = (
+/obj/structure/flora/tree/jungle/small,
+/turf/open/indestructible/ground/outside/water,
+/area/f13/wasteland/bighornbunker)
 "fHL" = (
 /obj/effect/turf_decal/stripes/asteroid/line{
 	dir = 5
@@ -29377,6 +29418,10 @@
 	icon_state = "horizontaloutermain1"
 	},
 /area/f13/wasteland/bighorn)
+"fZw" = (
+/obj/structure/flora/ausbushes/fullgrass,
+/turf/open/indestructible/ground/outside/water,
+/area/f13/wasteland/bighornbunker)
 "fZB" = (
 /obj/item/stack/sheet/bone,
 /obj/effect/decal/cleanable/blood/gibs/down{
@@ -29521,6 +29566,10 @@
 	icon_state = "horizontaltopbordertop0"
 	},
 /area/f13/wasteland/hospital)
+"geN" = (
+/obj/structure/flora/stump,
+/turf/open/indestructible/ground/outside/water,
+/area/f13/wasteland/bighornbunker)
 "geU" = (
 /obj/structure/closet,
 /obj/item/clothing/under/f13/mechanic,
@@ -29635,6 +29684,10 @@
 	icon_state = "verticalinnermain0"
 	},
 /area/f13/wasteland/bighorn)
+"giW" = (
+/obj/structure/flora/ausbushes/fullgrass,
+/turf/open/indestructible/ground/outside/water,
+/area/f13/caves)
 "gjj" = (
 /obj/effect/decal/cleanable/dirt{
 	color = "#363636"
@@ -31925,6 +31978,10 @@
 	},
 /turf/open/indestructible/ground/outside/desert,
 /area/f13/wasteland/east)
+"hHm" = (
+/obj/structure/flora/ausbushes/sparsegrass,
+/turf/open/indestructible/ground/outside/desert,
+/area/f13/wasteland/bighornbunker)
 "hHo" = (
 /turf/open/indestructible/ground/outside/sidewalk{
 	dir = 8;
@@ -31956,6 +32013,10 @@
 	},
 /turf/open/indestructible/ground/outside/dirt,
 /area/f13/wasteland/west)
+"hIq" = (
+/obj/structure/flora/ausbushes/reedbush,
+/turf/open/indestructible/ground/outside/water,
+/area/f13/wasteland/bighornbunker)
 "hIt" = (
 /obj/structure/rack,
 /obj/effect/spawner/lootdrop/f13/weapon/gun/ballistic/hobo,
@@ -31974,6 +32035,10 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood/wood_fancy,
 /area/f13/brotherhood/leisure)
+"hIW" = (
+/obj/structure/flora/ausbushes/stalkybush,
+/turf/open/indestructible/ground/outside/water,
+/area/f13/caves)
 "hJU" = (
 /obj/structure/rack,
 /obj/item/storage/bag/trash,
@@ -32600,6 +32665,12 @@
 	icon_state = "dirt"
 	},
 /area/f13/caves)
+"idY" = (
+/obj/structure/flora/tree/jungle,
+/obj/structure/flora/junglebush,
+/obj/structure/flora/junglebush/c,
+/turf/open/indestructible/ground/outside/desert,
+/area/f13/wasteland/bighornbunker)
 "iea" = (
 /obj/effect/turf_decal/stripes/white/line{
 	dir = 5
@@ -33404,9 +33475,9 @@
 /area/f13/brotherhood)
 "iCe" = (
 /obj/machinery/light/small{
-	light_color = "red";
 	bulb_colour = "#DE3163";
 	bulb_emergency_colour = "#DE3163";
+	light_color = "red";
 	nightshift_light_color = "#DE3163"
 	},
 /obj/effect/decal/cleanable/dirt/dust,
@@ -33525,6 +33596,12 @@
 /obj/effect/spawner/lootdrop/f13/armor/clothes,
 /turf/open/floor/f13/wood,
 /area/f13/building)
+"iFT" = (
+/obj/structure/flora/grass/jungle,
+/turf/open/indestructible/ground/outside/sidewalk{
+	icon_state = "verticalleftborderleft0"
+	},
+/area/f13/wasteland/bighornbunker)
 "iFU" = (
 /obj/effect/decal/cleanable/dirt{
 	color = "#363636"
@@ -33835,8 +33912,8 @@
 /obj/item/stack/f13Cash/random/low,
 /obj/structure/table/wood/bar,
 /obj/item/reagent_containers/food/drinks/drinkingglass/shotglass{
-	pixel_y = 14;
-	pixel_x = 8
+	pixel_x = 8;
+	pixel_y = 14
 	},
 /turf/open/floor/f13/wood,
 /area/f13/building)
@@ -33993,11 +34070,8 @@
 	},
 /area/f13/wasteland/bighorn)
 "iQb" = (
-/turf/open/indestructible/ground/outside/dirt{
-	dir = 6;
-	icon_state = "dirt"
-	},
-/area/f13/wasteland/quarry)
+/turf/closed/indestructible/rock,
+/area/f13/wasteland/bighornbunker)
 "iQD" = (
 /obj/structure/simple_door/house{
 	name = "Ricks Outdoor Goods"
@@ -35308,6 +35382,11 @@
 	icon_state = "floorrusty"
 	},
 /area/f13/building)
+"jAz" = (
+/obj/structure/flora/junglebush,
+/obj/structure/flora/junglebush,
+/turf/open/indestructible/ground/outside/desert,
+/area/f13/wasteland/bighornbunker)
 "jAS" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/item/stock_parts/cell/ammo/ultracite,
@@ -35532,10 +35611,10 @@
 /area/f13/wasteland/west)
 "jJK" = (
 /obj/machinery/light/small{
-	dir = 4;
-	light_color = "red";
 	bulb_colour = "#DE3163";
 	bulb_emergency_colour = "#DE3163";
+	dir = 4;
+	light_color = "red";
 	nightshift_light_color = "#DE3163"
 	},
 /turf/open/floor/f13/wood,
@@ -37447,6 +37526,10 @@
 	icon_state = "dirt"
 	},
 /area/f13/wasteland/museum)
+"kUr" = (
+/obj/structure/flora/ausbushes/fullgrass,
+/turf/open/indestructible/ground/outside/desert,
+/area/f13/caves)
 "kUw" = (
 /mob/living/simple_animal/hostile/molerat,
 /turf/open/indestructible/ground/outside/road{
@@ -37593,9 +37676,8 @@
 /turf/open/floor/plasteel/f13/vault_floor/white,
 /area/f13/building/hospital)
 "kXR" = (
-/turf/open/indestructible/ground/outside/desert{
-	icon_state = "wasteland32"
-	},
+/obj/structure/flora/rock/jungle,
+/turf/open/indestructible/ground/outside/water,
 /area/f13/wasteland/bighornbunker)
 "kXT" = (
 /obj/item/flashlight/lantern,
@@ -38023,6 +38105,10 @@
 	icon_state = "bluedirtychess"
 	},
 /area/f13/building/mall)
+"lkP" = (
+/obj/structure/flora/ausbushes/grassybush,
+/turf/open/indestructible/ground/outside/water,
+/area/f13/wasteland/bighornbunker)
 "lkW" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/railing/wood{
@@ -38079,10 +38165,10 @@
 /area/f13/building/mall)
 "lnu" = (
 /obj/machinery/light/small{
-	dir = 8;
-	light_color = "red";
 	bulb_colour = "#DE3163";
 	bulb_emergency_colour = "#DE3163";
+	dir = 8;
+	light_color = "red";
 	nightshift_light_color = "#DE3163"
 	},
 /obj/effect/decal/cleanable/dirt/dust,
@@ -38410,10 +38496,10 @@
 /area/f13/radiation)
 "lwy" = (
 /obj/machinery/light/small{
-	dir = 8;
-	light_color = "red";
 	bulb_colour = "#DE3163";
 	bulb_emergency_colour = "#DE3163";
+	dir = 8;
+	light_color = "red";
 	nightshift_light_color = "#DE3163"
 	},
 /turf/open/floor/f13/wood{
@@ -39322,12 +39408,12 @@
 "lTi" = (
 /obj/structure/table/wood/settler,
 /obj/item/reagent_containers/pill/patch/turbo{
-	pixel_y = 12;
-	pixel_x = 8
+	pixel_x = 8;
+	pixel_y = 12
 	},
 /obj/item/reagent_containers/food/drinks/bottle/champagne{
-	pixel_y = 9;
-	pixel_x = -4
+	pixel_x = -4;
+	pixel_y = 9
 	},
 /turf/open/floor/f13/wood,
 /area/f13/building)
@@ -39423,6 +39509,10 @@
 	icon_state = "darkrusty"
 	},
 /area/f13/building/massfusion)
+"lVv" = (
+/obj/structure/flora/grass/jungle/b,
+/turf/open/indestructible/ground/outside/water,
+/area/f13/wasteland/bighornbunker)
 "lVz" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/trimline/red/filled/line,
@@ -40591,9 +40681,9 @@
 	color = "#363636"
 	},
 /obj/structure/railing{
+	dir = 6;
 	layer = 3.3;
-	plane = -3;
-	dir = 6
+	plane = -3
 	},
 /obj/structure/chair/booth{
 	dir = 8
@@ -40753,6 +40843,10 @@
 /obj/machinery/workbench,
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/caves)
+"mHW" = (
+/obj/structure/flora/rock/pile/largejungle,
+/turf/open/indestructible/ground/outside/desert,
+/area/f13/wasteland/bighornbunker)
 "mHZ" = (
 /turf/open/floor/f13/wood,
 /area/f13/city/bighorn)
@@ -40997,9 +41091,9 @@
 	color = "#363636"
 	},
 /obj/structure/railing{
+	dir = 10;
 	layer = 3.3;
-	plane = -3;
-	dir = 10
+	plane = -3
 	},
 /obj/structure/chair/booth{
 	dir = 4
@@ -41284,6 +41378,12 @@
 	icon_state = "bluerustysolid"
 	},
 /area/f13/followers)
+"mZH" = (
+/obj/structure/flora/tree/tall,
+/obj/structure/flora/junglebush,
+/obj/structure/flora/junglebush/large,
+/turf/open/indestructible/ground/outside/desert,
+/area/f13/wasteland/bighornbunker)
 "mZJ" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -41409,11 +41509,11 @@
 /turf/open/indestructible/ground/outside/dirt,
 /area/f13/building)
 "ndo" = (
-/turf/open/indestructible/ground/outside/dirt{
-	dir = 10;
-	icon_state = "dirt"
+/obj/structure/flora/junglebush/b,
+/turf/open/indestructible/ground/outside/sidewalk{
+	icon_state = "horizontaloutermain2"
 	},
-/area/f13/wasteland/quarry)
+/area/f13/wasteland/bighornbunker)
 "ndu" = (
 /turf/open/floor/f13{
 	icon_state = "stagestairs"
@@ -41458,6 +41558,10 @@
 	},
 /turf/open/floor/f13/wood,
 /area/f13/building)
+"neW" = (
+/obj/structure/flora/junglebush/c,
+/turf/open/indestructible/ground/outside/water,
+/area/f13/wasteland/bighornbunker)
 "nfd" = (
 /obj/structure/debris/v2,
 /turf/closed/wall/f13/ruins,
@@ -41547,6 +41651,10 @@
 /obj/item/reagent_containers/food/drinks/drinkingglass/shotglass,
 /turf/open/floor/wood/wood_common,
 /area/f13/city/bighorn)
+"nje" = (
+/obj/structure/flora/rock/jungle,
+/turf/open/indestructible/ground/outside/water,
+/area/f13/wasteland/bighorn)
 "njq" = (
 /turf/open/indestructible/ground/outside/sidewalk{
 	icon_state = "horizontalbottomborderbottom2"
@@ -41589,6 +41697,11 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/brotherhood)
+"nkI" = (
+/obj/structure/flora/grass/jungle/b,
+/obj/structure/flora/junglebush/b,
+/turf/open/indestructible/ground/outside/desert,
+/area/f13/wasteland/bighornbunker)
 "nlf" = (
 /turf/open/indestructible/ground/outside/road{
 	icon_state = "horizontalbottombordertop2"
@@ -41870,10 +41983,15 @@
 	icon_state = "verticalrightborderright2"
 	},
 /area/f13/wasteland/west)
+"nrR" = (
+/obj/structure/flora/ausbushes/lavendergrass,
+/obj/structure/flora/rock/pile/largejungle,
+/turf/open/indestructible/ground/outside/desert,
+/area/f13/wasteland/bighornbunker)
 "nsr" = (
 /turf/open/indestructible/ground/outside/dirt{
-	icon_state = "dirt";
-	dir = 6
+	dir = 6;
+	icon_state = "dirt"
 	},
 /area/f13/wasteland/quarry)
 "nsK" = (
@@ -42057,6 +42175,9 @@
 /mob/living/simple_animal/hostile/handy,
 /turf/open/floor/plasteel/f13/vault_floor/dark,
 /area/f13/building/mall)
+"nxp" = (
+/turf/closed/indestructible/rock,
+/area/f13/wasteland/bighorn)
 "nxq" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/structure/table,
@@ -42830,10 +42951,10 @@
 /obj/structure/chair/stool/retro,
 /obj/effect/decal/cleanable/shreds,
 /obj/machinery/light/small{
-	dir = 8;
-	light_color = "red";
 	bulb_colour = "#DE3163";
 	bulb_emergency_colour = "#DE3163";
+	dir = 8;
+	light_color = "red";
 	nightshift_light_color = "#DE3163"
 	},
 /turf/open/floor/f13/wood,
@@ -42946,6 +43067,11 @@
 /obj/effect/spawner/lootdrop/f13/armor/clothes,
 /turf/open/floor/f13/wood,
 /area/f13/village)
+"oaT" = (
+/obj/structure/flora/tree/jungle/small,
+/obj/structure/flora/junglebush,
+/turf/open/indestructible/ground/outside/desert,
+/area/f13/wasteland/bighornbunker)
 "obl" = (
 /obj/machinery/light/small{
 	dir = 4
@@ -42970,6 +43096,11 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/dark,
 /area/f13/building/mall)
+"ocb" = (
+/obj/structure/flora/junglebush/large,
+/obj/structure/flora/tree/jungle/small,
+/turf/open/indestructible/ground/outside/desert,
+/area/f13/wasteland/bighornbunker)
 "ocf" = (
 /obj/structure/fence{
 	dir = 4
@@ -43174,6 +43305,11 @@
 "ohr" = (
 /turf/open/floor/plasteel/f13/vault_floor/misc/vault1,
 /area/f13/building/museum)
+"ohF" = (
+/obj/structure/flora/ausbushes/grassybush,
+/obj/structure/flora/ausbushes/sparsegrass,
+/turf/open/indestructible/ground/outside/water,
+/area/f13/wasteland/bighornbunker)
 "ohI" = (
 /turf/open/indestructible/ground/outside/sidewalk{
 	icon_state = "verticalleftborderleft0"
@@ -43506,6 +43642,10 @@
 	},
 /turf/open/indestructible/ground/outside/dirt,
 /area/f13/building)
+"opL" = (
+/obj/structure/flora/tree/jungle/small,
+/turf/open/indestructible/ground/outside/water,
+/area/f13/caves)
 "oqd" = (
 /obj/structure/table/reinforced,
 /obj/machinery/computer/terminal{
@@ -43629,6 +43769,10 @@
 	icon_state = "innershade"
 	},
 /area/f13/wasteland/west)
+"otk" = (
+/obj/structure/flora/junglebush/large,
+/turf/open/indestructible/ground/outside/water,
+/area/f13/wasteland/bighornbunker)
 "otA" = (
 /turf/open/indestructible/ground/outside/sidewalk{
 	icon_state = "verticalrightborderright1"
@@ -43736,10 +43880,10 @@
 "oxd" = (
 /obj/structure/chair/stool/retro,
 /obj/machinery/light/small{
-	dir = 4;
-	light_color = "red";
 	bulb_colour = "#DE3163";
 	bulb_emergency_colour = "#DE3163";
+	dir = 4;
+	light_color = "red";
 	nightshift_light_color = "#DE3163"
 	},
 /turf/open/floor/f13/wood,
@@ -43961,8 +44105,8 @@
 /area/f13/caves)
 "oEy" = (
 /turf/open/indestructible/ground/outside/dirt{
-	icon_state = "dirt";
-	dir = 9
+	dir = 9;
+	icon_state = "dirt"
 	},
 /area/f13/wasteland/quarry)
 "oFn" = (
@@ -44111,11 +44255,11 @@
 /turf/open/floor/plasteel/f13/vault_floor/plating,
 /area/f13/building/mall)
 "oJH" = (
-/obj/effect/landmark/vertibird{
-	name = "East of Hospital"
+/obj/structure/flora/junglebush/b,
+/turf/open/indestructible/ground/outside/road{
+	icon_state = "verticalinnermain3"
 	},
-/turf/open/indestructible/ground/outside/desert,
-/area/f13/wasteland/east)
+/area/f13/wasteland/bighornbunker)
 "oJI" = (
 /mob/living/simple_animal/hostile/mirelurk/baby,
 /turf/open/indestructible/ground/outside/water,
@@ -44183,6 +44327,13 @@
 	icon_state = "floorrustysolid"
 	},
 /area/f13/city/bighorn)
+"oLh" = (
+/obj/structure/flora/grass/jungle/b,
+/turf/open/indestructible/ground/outside/sidewalk{
+	dir = 4;
+	icon_state = "outerpavement"
+	},
+/area/f13/wasteland/bighornbunker)
 "oLp" = (
 /turf/open/indestructible/ground/outside/road{
 	icon_state = "topshadowleft"
@@ -44877,6 +45028,12 @@
 	icon_state = "horizontaloutermain2"
 	},
 /area/f13/wasteland/heaven)
+"pdT" = (
+/obj/structure/flora/junglebush/large,
+/obj/structure/flora/tree/jungle/small,
+/obj/structure/flora/junglebush,
+/turf/open/indestructible/ground/outside/desert,
+/area/f13/wasteland/bighornbunker)
 "pec" = (
 /obj/structure/closet/locker,
 /obj/machinery/light/broken{
@@ -45305,6 +45462,10 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/plasteel/f13/vault_floor/white,
 /area/f13/building/mall)
+"pti" = (
+/obj/structure/flora/junglebush,
+/turf/open/indestructible/ground/outside/desert,
+/area/f13/wasteland/bighornbunker)
 "ptm" = (
 /obj/structure/barricade/wooden,
 /obj/structure/barricade/tentleatheredge,
@@ -45423,6 +45584,12 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/city/bighorn)
+"pwD" = (
+/obj/structure/flora/junglebush,
+/turf/open/indestructible/ground/outside/sidewalk{
+	icon_state = "horizontalbottomborderbottom2left"
+	},
+/area/f13/wasteland/bighornbunker)
 "pwG" = (
 /obj/effect/turf_decal/weather/dirt,
 /obj/structure/flora/junglebush,
@@ -45566,6 +45733,12 @@
 /obj/machinery/mineral/ore_redemption,
 /turf/open/indestructible/ground/inside/subway,
 /area/f13/building)
+"pzu" = (
+/obj/structure/flora/ausbushes/grassybush,
+/obj/structure/flora/tree/jungle/small,
+/obj/structure/flora/junglebush,
+/turf/open/indestructible/ground/outside/water,
+/area/f13/wasteland/bighornbunker)
 "pzT" = (
 /obj/item/gun/ballistic/automatic/pistol/ninemil,
 /obj/effect/decal/cleanable/dirt{
@@ -45664,6 +45837,11 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/f13/building/hospital)
+"pCe" = (
+/obj/structure/flora/ausbushes/fullgrass,
+/obj/structure/flora/ausbushes/grassybush,
+/turf/open/indestructible/ground/outside/water,
+/area/f13/wasteland/bighornbunker)
 "pCf" = (
 /turf/open/indestructible/ground/outside/road{
 	icon_state = "horizontaltopborderbottom2left"
@@ -45733,6 +45911,14 @@
 	},
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/city/bighorn)
+"pDr" = (
+/obj/effect/decal/remains{
+	icon_state = "remains"
+	},
+/turf/open/indestructible/ground/outside/sidewalk{
+	icon_state = "horizontalbottomborderbottom2left"
+	},
+/area/f13/wasteland/bighornbunker)
 "pDy" = (
 /obj/structure/railing{
 	dir = 9
@@ -45898,10 +46084,10 @@
 /area/f13/building/mall)
 "pJo" = (
 /obj/machinery/light/small{
-	dir = 4;
-	light_color = "red";
 	bulb_colour = "#DE3163";
 	bulb_emergency_colour = "#DE3163";
+	dir = 4;
+	light_color = "red";
 	nightshift_light_color = "#DE3163"
 	},
 /turf/open/floor/f13/wood{
@@ -46078,6 +46264,15 @@
 	},
 /turf/open/floor/wood/wood_worn,
 /area/f13/city/bighorn)
+"pPW" = (
+/obj/structure/flora/ausbushes/leafybush,
+/obj/structure/flora/ausbushes/leafybush,
+/turf/open/indestructible/ground/outside/water,
+/area/f13/wasteland/bighornbunker)
+"pQe" = (
+/obj/structure/flora/ausbushes/leafybush,
+/turf/open/indestructible/ground/outside/desert,
+/area/f13/wasteland/bighornbunker)
 "pQn" = (
 /turf/open/indestructible/ground/outside/savannah,
 /area/f13/caves)
@@ -46149,6 +46344,12 @@
 	icon_state = "darkrusty"
 	},
 /area/f13/building/museum)
+"pSx" = (
+/obj/structure/flora/ausbushes/brflowers,
+/obj/structure/flora/tree/jungle/small,
+/obj/structure/flora/junglebush,
+/turf/open/indestructible/ground/outside/desert,
+/area/f13/wasteland/bighornbunker)
 "pSC" = (
 /obj/structure/chair/f13chair2{
 	dir = 4
@@ -46546,6 +46747,11 @@
 /obj/machinery/computer/terminal,
 /turf/open/indestructible/ground/outside/sidewalk,
 /area/f13/bunker)
+"qhw" = (
+/obj/structure/flora/ausbushes/brflowers,
+/obj/structure/flora/ausbushes/leafybush,
+/turf/open/indestructible/ground/outside/desert,
+/area/f13/wasteland/bighornbunker)
 "qhx" = (
 /turf/open/indestructible/ground/outside/sidewalk{
 	icon_state = "verticalrightborderright2"
@@ -46932,6 +47138,11 @@
 	icon_state = "darkdirtysolid"
 	},
 /area/f13/followers)
+"qrd" = (
+/obj/structure/flora/ausbushes/leafybush,
+/obj/structure/flora/junglebush,
+/turf/open/indestructible/ground/outside/desert,
+/area/f13/wasteland/bighornbunker)
 "qrj" = (
 /obj/machinery/shower{
 	dir = 4
@@ -47999,6 +48210,9 @@
 	icon_state = "verticalleftborderleft0"
 	},
 /area/f13/wasteland/hospital)
+"rae" = (
+/turf/open/indestructible/ground/outside/gravel,
+/area/f13/wasteland/bighornbunker)
 "ral" = (
 /obj/structure/decoration/rag,
 /turf/closed/wall/f13/tentwall,
@@ -48219,6 +48433,10 @@
 	icon_state = "darkrusty"
 	},
 /area/f13/building/massfusion)
+"reS" = (
+/obj/structure/flora/tree/jungle,
+/turf/open/indestructible/ground/outside/desert,
+/area/f13/wasteland/bighornbunker)
 "rfd" = (
 /obj/structure/chair/sofa/left{
 	dir = 8
@@ -48415,10 +48633,10 @@
 /area/f13/tunnel/northeast)
 "rlJ" = (
 /obj/machinery/light/small{
-	dir = 1;
-	light_color = "red";
 	bulb_colour = "#DE3163";
 	bulb_emergency_colour = "#DE3163";
+	dir = 1;
+	light_color = "red";
 	nightshift_light_color = "#DE3163"
 	},
 /turf/open/floor/f13/wood,
@@ -48753,6 +48971,10 @@
 /obj/structure/weightmachine/stacklifter,
 /turf/open/floor/carpet/red,
 /area/f13/building/mall)
+"rtN" = (
+/obj/structure/flora/junglebush/large,
+/turf/open/indestructible/ground/outside/desert,
+/area/f13/wasteland/bighornbunker)
 "rtS" = (
 /obj/effect/spawner/lootdrop/f13/weapon/gun/ballistic/hobo,
 /turf/open/indestructible/ground/outside/sidewalk{
@@ -48952,6 +49174,10 @@
 /obj/structure/noticeboard,
 /turf/closed/wall/f13/wood,
 /area/f13/city/bighorn)
+"rAx" = (
+/obj/structure/flora/grass/jungle,
+/turf/closed/wall/f13/store,
+/area/f13/wasteland/bighornbunker)
 "rAB" = (
 /obj/structure/table/wood,
 /obj/machinery/door/poddoor/shutters{
@@ -48979,6 +49205,11 @@
 /obj/structure/chair/office,
 /turf/open/floor/wood/wood_common,
 /area/f13/city/bighorn)
+"rBC" = (
+/obj/structure/flora/tree/jungle,
+/obj/structure/flora/junglebush/c,
+/turf/open/indestructible/ground/outside/desert,
+/area/f13/wasteland/bighornbunker)
 "rBW" = (
 /turf/open/indestructible/ground/outside/road{
 	icon_state = "verticalinnermain2"
@@ -48996,10 +49227,10 @@
 "rCy" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/machinery/light/small{
-	dir = 4;
-	light_color = "red";
 	bulb_colour = "#DE3163";
 	bulb_emergency_colour = "#DE3163";
+	dir = 4;
+	light_color = "red";
 	nightshift_light_color = "#DE3163"
 	},
 /turf/open/floor/f13/wood,
@@ -50690,6 +50921,14 @@
 	name = "stone floor"
 	},
 /area/f13/building)
+"sCo" = (
+/obj/structure/flora/junglebush/c,
+/obj/structure/flora/grass/jungle/b,
+/turf/open/indestructible/ground/outside/sidewalk{
+	dir = 4;
+	icon_state = "outerpavement"
+	},
+/area/f13/wasteland/bighornbunker)
 "sCp" = (
 /turf/closed/indestructible/f13/matrix/transition{
 	destination_x = 2;
@@ -51429,10 +51668,10 @@
 	dir = 8
 	},
 /obj/machinery/light/small{
-	dir = 1;
-	light_color = "red";
 	bulb_colour = "#DE3163";
 	bulb_emergency_colour = "#DE3163";
+	dir = 1;
+	light_color = "red";
 	nightshift_light_color = "#DE3163"
 	},
 /turf/open/floor/f13/wood,
@@ -52258,10 +52497,10 @@
 /area/f13/wasteland/east)
 "txH" = (
 /obj/machinery/light/small{
-	dir = 8;
-	light_color = "red";
 	bulb_colour = "#DE3163";
 	bulb_emergency_colour = "#DE3163";
+	dir = 8;
+	light_color = "red";
 	nightshift_light_color = "#DE3163"
 	},
 /turf/open/floor/f13/wood,
@@ -53083,6 +53322,10 @@
 /obj/effect/decal/remains/human,
 /turf/open/indestructible/ground/outside/desert,
 /area/f13/wasteland/west)
+"tTp" = (
+/obj/structure/flora/ausbushes/sparsegrass,
+/turf/open/indestructible/ground/outside/water,
+/area/f13/wasteland/bighornbunker)
 "tTH" = (
 /turf/open/indestructible/ground/outside/sidewalk{
 	icon_state = "verticaloutermain2top"
@@ -53511,8 +53754,8 @@
 /obj/structure/table/wood/poker,
 /obj/item/reagent_containers/pill/happiness,
 /obj/item/reagent_containers/pill/happiness{
-	pixel_y = 5;
-	pixel_x = 8
+	pixel_x = 8;
+	pixel_y = 5
 	},
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/f13/wood,
@@ -54706,6 +54949,11 @@
 	icon_state = "floorrusty"
 	},
 /area/f13/building)
+"uRf" = (
+/obj/structure/flora/junglebush/b,
+/obj/structure/flora/junglebush,
+/turf/open/indestructible/ground/outside/desert,
+/area/f13/wasteland/bighornbunker)
 "uRs" = (
 /obj/machinery/mineral/wasteland_vendor/special,
 /turf/open/floor/plating/f13/inside,
@@ -55163,9 +55411,9 @@
 /area/f13/building)
 "vbx" = (
 /obj/structure/railing{
+	dir = 6;
 	layer = 3.3;
-	plane = -3;
-	dir = 6
+	plane = -3
 	},
 /obj/effect/decal/cleanable/dirt{
 	color = "#363636"
@@ -55756,6 +56004,11 @@
 	icon_state = "innermaincornerinner"
 	},
 /area/f13/wasteland/museum)
+"vwr" = (
+/turf/open/indestructible/ground/outside/sidewalk{
+	icon_state = "horizontalbottomborderbottom2left"
+	},
+/area/f13/wasteland/bighornbunker)
 "vwL" = (
 /turf/open/indestructible/ground/outside/road{
 	icon_state = "verticalinnermain2bottom"
@@ -55974,6 +56227,10 @@
 	},
 /turf/open/indestructible/ground/outside/dirt,
 /area/f13/wasteland/valley)
+"vCv" = (
+/obj/structure/flora/grass/jungle/b,
+/turf/open/indestructible/ground/outside/desert,
+/area/f13/wasteland/bighornbunker)
 "vCw" = (
 /turf/open/indestructible/ground/outside/sidewalk{
 	icon_state = "horizontalbottomborderbottom0"
@@ -56028,6 +56285,11 @@
 /obj/structure/simple_door/wood,
 /turf/open/floor/f13/wood,
 /area/f13/building)
+"vFM" = (
+/obj/structure/flora/ausbushes/fullgrass,
+/obj/structure/flora/ausbushes/sparsegrass,
+/turf/open/indestructible/ground/outside/water,
+/area/f13/wasteland/bighornbunker)
 "vGp" = (
 /obj/effect/decal/cleanable/generic,
 /obj/effect/spawner/lootdrop/f13/junkspawners,
@@ -56066,8 +56328,8 @@
 	icon_state = "floor5"
 	},
 /obj/structure/wreck/trash/three_barrels{
-	pixel_y = 1;
-	pixel_x = -11
+	pixel_x = -11;
+	pixel_y = 1
 	},
 /turf/open/indestructible/ground/outside/sidewalk{
 	dir = 7;
@@ -57056,6 +57318,11 @@
 	icon_state = "verticalleftborderright0"
 	},
 /area/f13/tunnel/northeast)
+"wkB" = (
+/obj/structure/flora/grass/jungle,
+/obj/structure/flora/grass/jungle/b,
+/turf/closed/wall/f13/store,
+/area/f13/wasteland/bighornbunker)
 "wkF" = (
 /turf/open/indestructible/ground/outside/road{
 	icon_state = "horizontalinnermain2right"
@@ -57683,9 +57950,7 @@
 /turf/open/floor/plasteel/freezer,
 /area/f13/brotherhood/leisure)
 "wCJ" = (
-/turf/open/indestructible/ground/outside/desert{
-	icon_state = "wasteland33"
-	},
+/turf/open/indestructible/ground/outside,
 /area/f13/wasteland/train)
 "wCK" = (
 /obj/machinery/workbench,
@@ -58020,9 +58285,9 @@
 "wNm" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/machinery/light/small{
-	light_color = "red";
 	bulb_colour = "#DE3163";
 	bulb_emergency_colour = "#DE3163";
+	light_color = "red";
 	nightshift_light_color = "#DE3163"
 	},
 /turf/open/floor/f13/wood,
@@ -58787,6 +59052,9 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/dark,
 /area/f13/building/hospital)
+"xgX" = (
+/turf/open/indestructible/ground/outside/water,
+/area/f13/wasteland/bighornbunker)
 "xip" = (
 /obj/structure/closet/cabinet/anchored,
 /obj/effect/decal/cleanable/dirt{
@@ -59509,6 +59777,13 @@
 /obj/item/pen,
 /turf/open/floor/wood/wood_common,
 /area/f13/city/bighorn)
+"xEA" = (
+/obj/effect/decal/remains{
+	icon_state = "remains"
+	},
+/obj/structure/flora/ausbushes/sparsegrass,
+/turf/open/indestructible/ground/outside/desert,
+/area/f13/wasteland/bighornbunker)
 "xEP" = (
 /obj/structure/tires/two,
 /turf/open/indestructible/ground/outside/dirt,
@@ -59623,6 +59898,10 @@
 /obj/structure/nest/protectron,
 /turf/open/indestructible/ground/outside/sidewalk,
 /area/f13/bunker)
+"xHC" = (
+/obj/structure/flora/stump,
+/turf/open/indestructible/ground/outside/desert,
+/area/f13/wasteland/bighornbunker)
 "xHG" = (
 /turf/open/indestructible/ground/outside/sidewalk{
 	icon_state = "horizontaltopbordertop3"
@@ -60037,8 +60316,8 @@
 /area/f13/building/mall)
 "xUZ" = (
 /turf/open/indestructible/ground/outside/dirt{
-	icon_state = "dirt";
-	dir = 10
+	dir = 10;
+	icon_state = "dirt"
 	},
 /area/f13/wasteland/quarry)
 "xVa" = (
@@ -60406,6 +60685,13 @@
 /obj/effect/decal/remains/human,
 /turf/open/floor/f13/wood,
 /area/f13/building)
+"yha" = (
+/obj/structure/car,
+/obj/structure/flora/grass/jungle/b,
+/turf/open/indestructible/ground/outside/road{
+	icon_state = "horizontalinnermain0"
+	},
+/area/f13/wasteland/bighornbunker)
 "yhh" = (
 /obj/machinery/light/small{
 	dir = 1;
@@ -65656,7 +65942,7 @@ tRk
 yeY
 mSJ
 ozv
-lVH
+xgX
 lVH
 lVH
 lVH
@@ -65913,8 +66199,8 @@ ivb
 yeY
 mSJ
 ozv
-lVH
-lVH
+xgX
+xgX
 lVH
 lVH
 vXM
@@ -66170,10 +66456,10 @@ oLb
 yeY
 mSJ
 ozv
+xgX
+xgX
 lVH
-lVH
-lVH
-aae
+aaa
 ozv
 wEd
 wEd
@@ -66427,11 +66713,11 @@ tRk
 yeY
 mSJ
 ozv
-lVH
-lVH
-aae
-aae
-aae
+xgX
+xgX
+aaa
+aaa
+aaa
 wEd
 wEd
 uki
@@ -66679,17 +66965,17 @@ icm
 icm
 qML
 qZu
-ivb
+oJH
 tRk
 lIp
 mSJ
 ozv
-lVH
-aae
-aae
-aae
-aae
-aae
+xgX
+aaa
+aaa
+aaa
+aaa
+aaa
 wEd
 uki
 rma
@@ -66941,12 +67227,12 @@ tRk
 yeY
 mSJ
 ozv
-lVH
-aae
-aae
-aae
-aae
-aae
+xgX
+aaa
+aaa
+aaa
+aaa
+aaa
 wEd
 uki
 rma
@@ -67198,12 +67484,12 @@ wxw
 yeY
 mSJ
 ozv
-lVH
-aae
-aae
-aae
-aae
-aae
+fxz
+aaa
+aaa
+aaa
+aaa
+aaa
 wEd
 uki
 kIn
@@ -67455,12 +67741,12 @@ wxw
 eHM
 mSJ
 ozv
-lVH
-lVH
-aae
-aae
-aae
-dQd
+fxz
+iQb
+aaa
+aaa
+aaa
+nxp
 dQd
 tpP
 eoi
@@ -67703,7 +67989,7 @@ aae
 bjV
 eVt
 sVv
-vxY
+ndo
 eVt
 qBP
 gTE
@@ -67712,11 +67998,11 @@ yeY
 jIk
 bfF
 ozv
-lVH
-lVH
-aae
-aae
-aae
+fxz
+fnY
+aaa
+aaa
+aaa
 dQd
 dQd
 tpP
@@ -67969,10 +68255,10 @@ yeY
 mSJ
 ozv
 ozv
-lVH
-lVH
-lVH
-aae
+fxz
+xgX
+xgX
+aaa
 ozv
 dQd
 dQd
@@ -68225,11 +68511,11 @@ qZu
 yeY
 mSJ
 ozv
-lVH
-lVH
-lVH
-lVH
-lVH
+vCv
+otk
+hIq
+otk
+fxz
 vXM
 dQd
 dQd
@@ -68481,12 +68767,12 @@ qML
 qZu
 yeY
 mSJ
-ozv
-lVH
-lVH
-kXR
-lVH
-lVH
+rae
+reS
+lVv
+tTp
+xgX
+xgX
 vXM
 dQd
 dQd
@@ -68738,12 +69024,12 @@ qML
 qZu
 yeY
 mSJ
-ozv
-lVH
-lVH
-lVH
-lVH
-lVH
+rae
+pti
+cOP
+otk
+tTp
+fxz
 vXM
 dQd
 aww
@@ -68995,12 +69281,12 @@ qML
 qZu
 yeY
 mSJ
-ozv
-lVH
-lVH
-bcS
-lVH
-lVH
+rae
+pti
+rBC
+pDr
+qML
+nkI
 vXM
 dQd
 dQd
@@ -69254,10 +69540,10 @@ yeY
 mSJ
 ozv
 fzB
-fzB
-fzB
-fzB
-fzB
+sCo
+vwr
+qML
+oLh
 ozv
 jhJ
 jhJ
@@ -69509,9 +69795,9 @@ bfh
 qZu
 yeY
 bfr
-ozv
+rAx
 xGG
-xGG
+iFT
 hoM
 eEW
 eEW
@@ -70017,11 +70303,11 @@ wxw
 wxw
 tRk
 ben
-ivb
+oJH
 tRk
 tRk
 wxw
-uNJ
+yha
 wxw
 bfH
 sXv
@@ -70278,7 +70564,7 @@ tRk
 tRk
 wxw
 wxw
-wxw
+bMj
 wxw
 bfI
 gSH
@@ -70791,15 +71077,15 @@ ozv
 ozv
 ozv
 ozv
-ozv
-ozv
-ozv
-ozv
+rAx
+wkB
+rAx
+wkB
+dva
 xJp
-xJp
-xJp
-xJp
-xJp
+vwr
+icm
+dva
 ozv
 dfu
 dfu
@@ -71042,21 +71328,21 @@ aae
 aae
 aae
 aae
+iQb
 lVH
 lVH
-lVH
-lVH
-lVH
-lVH
-lVH
-lVH
-lVH
-lVH
-lVH
-lVH
-lVH
-lVH
-lVH
+oaT
+rtN
+vCv
+vCv
+vCv
+vCv
+rtN
+vCv
+vCv
+pwD
+qML
+vCv
 arJ
 dQd
 dQd
@@ -71299,21 +71585,21 @@ aae
 aae
 lVH
 lVH
+iQb
 lVH
 lVH
+oaT
+mHW
 lVH
-lVH
-lVH
-lVH
-lVH
-lVH
-lVH
-lVH
-lVH
-lVH
-lVH
-lVH
-lVH
+rtN
+vCv
+rtN
+pti
+vCv
+rtN
+xgX
+xgX
+idY
 arJ
 dQd
 dQd
@@ -71556,21 +71842,21 @@ lVH
 lVH
 lVH
 lVH
+iQb
 lVH
 lVH
-lVH
-lVH
-lVH
-lVH
-lVH
-lVH
-lVH
-lVH
-lVH
-kXR
-lVH
-lVH
-lVH
+pdT
+jAz
+pti
+vCv
+hHm
+qhw
+pQe
+pQe
+hHm
+xgX
+xHC
+pti
 arJ
 dQd
 dQd
@@ -71813,21 +72099,21 @@ lVH
 lVH
 lVH
 lVH
+iQb
+iQb
+iQb
 lVH
-lVH
-lVH
-lVH
-lVH
+oaT
 rWA
-lVH
-lVH
-lVH
-lVH
-lVH
-lVH
-lVH
-lVH
-lVH
+rtN
+bzE
+kXR
+ohF
+vFM
+lkP
+dXJ
+uRf
+mZH
 arJ
 dQd
 dQd
@@ -72070,22 +72356,22 @@ lVH
 lVH
 lVH
 lVH
-lVH
-lVH
-lVH
-lVH
-lVH
-lVH
-lVH
-bcS
-lVH
-lVH
-lVH
-lVH
-lVH
-lVH
-lVH
-aae
+iQb
+iQb
+iQb
+ocb
+pSx
+nrR
+qrd
+xEA
+lkP
+tTp
+lkP
+pPW
+pQe
+azx
+rtN
+aaa
 dQd
 dQd
 tpP
@@ -72327,23 +72613,23 @@ lVH
 lVH
 lVH
 lVH
+iQb
+iQb
+iQb
+lkP
+pzu
+otk
+pCe
+fZw
+fxz
+geN
+xgX
+fGP
+fGP
+hHm
 lVH
-lVH
-lVH
-lVH
-lVH
-lVH
-lVH
-lVH
-lVH
-lVH
-lVH
-lVH
-lVH
-lVH
-lVH
-aae
-aae
+aaa
+aaa
 dQd
 tpP
 frQ
@@ -72584,23 +72870,23 @@ lVH
 lVH
 rWA
 lVH
-lVH
-lVH
-lVH
+iQb
+iQb
+iQb
 kXR
-lVH
-lVH
-lVH
-lVH
-lVH
-lVH
-lVH
-aae
-aae
-aae
-aae
-aae
-aae
+otk
+neW
+neW
+xgX
+xgX
+xgX
+xgX
+lTe
+opL
+giW
+kUr
+aaa
+aaa
 dQd
 tpP
 frQ
@@ -72841,23 +73127,23 @@ lVH
 lVH
 lVH
 lVH
-lVH
-lVH
-lVH
-lVH
-lVH
-lVH
-lVH
-lVH
-lVH
-lVH
-lVH
-aae
-aae
-aae
-aae
-aae
-aae
+iQb
+iQb
+iQb
+iQb
+iQb
+neW
+xgX
+xgX
+xgX
+xgX
+xgX
+lTe
+lTe
+opL
+tUB
+aaa
+aaa
 dQd
 tpP
 frQ
@@ -73100,20 +73386,20 @@ lVH
 lVH
 bcS
 lVH
-lVH
-lVH
-lVH
-lVH
-lVH
-lVH
-lVH
-lVH
-aae
-aae
-aae
-aae
-aae
-aae
+iQb
+iQb
+iQb
+iQb
+iQb
+fxz
+xgX
+xgX
+lTe
+lTe
+lTe
+lTe
+opL
+aaa
 dQd
 dQd
 tpP
@@ -73358,19 +73644,19 @@ lVH
 lVH
 lVH
 lVH
-lVH
-lVH
-kXR
-lVH
-lVH
-lVH
-aae
-aae
-aae
-aae
-aae
-aae
-dQd
+iQb
+iQb
+iQb
+iQb
+iQb
+xgX
+cqs
+hIW
+hIW
+lTe
+lTe
+lTe
+nje
 dQd
 dQd
 tpP
@@ -73617,9 +73903,9 @@ lVH
 lVH
 lVH
 lVH
-lVH
-lVH
-lVH
+iQb
+iQb
+iQb
 aae
 aae
 aae
@@ -73876,8 +74162,8 @@ xzW
 xzW
 xzW
 xzW
-aae
-aae
+aaa
+aaa
 aae
 aae
 aae
@@ -74133,8 +74419,8 @@ nvE
 nvE
 nvE
 nvE
-aae
-aae
+aaa
+aaa
 aae
 aae
 wEd
@@ -97120,7 +97406,7 @@ aae
 aae
 aaB
 xjM
-dqx
+oEy
 xUx
 cpq
 cpq
@@ -97613,7 +97899,7 @@ ajF
 ajF
 ajF
 fMM
-ndo
+xUZ
 kZn
 xjM
 prR
@@ -97632,7 +97918,7 @@ aae
 aae
 aae
 mUN
-ndo
+xUZ
 xjM
 crm
 txT
@@ -97890,7 +98176,7 @@ aae
 cpq
 cpq
 mUN
-ndo
+xUZ
 xjM
 crm
 txT
@@ -98148,7 +98434,7 @@ cpq
 cpq
 cpq
 mUN
-ndo
+xUZ
 xjM
 crm
 rqE
@@ -98662,7 +98948,7 @@ cpq
 izc
 cpq
 aiS
-iQb
+nsr
 xjM
 xjM
 akj
@@ -99155,7 +99441,7 @@ vRx
 okX
 dHr
 sRN
-ndo
+xUZ
 xjM
 xjM
 prR
@@ -99926,7 +100212,7 @@ whS
 rqE
 rqE
 rqE
-iQb
+nsr
 xjM
 xjM
 prR
@@ -99948,8 +100234,8 @@ nrn
 xjM
 xjM
 xjM
-dqx
-ndo
+oEy
+xUZ
 xjM
 akI
 prR
@@ -100729,7 +101015,7 @@ cpq
 nrn
 akj
 xjM
-dqx
+oEy
 xUx
 cpq
 cpq
@@ -101211,7 +101497,7 @@ vTa
 kVQ
 ral
 rqE
-iQb
+nsr
 xjM
 xjM
 prR
@@ -101474,7 +101760,7 @@ xjM
 crm
 pRr
 rqE
-iQb
+nsr
 xjM
 xjM
 aiL
@@ -101725,7 +102011,7 @@ hgS
 adb
 ral
 dAO
-ndo
+xUZ
 aKb
 xjM
 boC
@@ -101990,7 +102276,7 @@ xjM
 xjM
 xjM
 kZn
-dqx
+oEy
 lSH
 lSH
 aiL
@@ -102245,7 +102531,7 @@ dAO
 dAO
 dAO
 dAO
-ndo
+xUZ
 xjM
 kPb
 wmh
@@ -103284,7 +103570,7 @@ aaU
 dAO
 fqn
 fqn
-ndo
+xUZ
 oJW
 prR
 cpq
@@ -104075,7 +104361,7 @@ dAO
 dAO
 eEf
 dAO
-ndo
+xUZ
 xjM
 xjM
 nfH
@@ -106134,7 +106420,7 @@ nRU
 pxy
 nrn
 kIg
-dqx
+oEy
 dAO
 bgZ
 pJo
@@ -111561,7 +111847,7 @@ cpx
 cpx
 cpx
 cpx
-kbA
+cpx
 cpx
 cpx
 cpx
@@ -111810,7 +112096,6 @@ pMY
 dZL
 cpx
 cpx
-kbA
 cpx
 cpx
 cpx
@@ -111823,20 +112108,21 @@ cpx
 cpx
 cpx
 cpx
-kbA
-cpx
-cpx
-cpx
-cpx
-cpx
-kbA
 cpx
 cpx
 cpx
 cpx
 cpx
 cpx
-kbA
+cpx
+cpx
+cpx
+cpx
+cpx
+cpx
+cpx
+cpx
+cpx
 cpx
 cpx
 cpx
@@ -112070,7 +112356,7 @@ cpx
 cpx
 cpx
 cpx
-pdm
+cpx
 cpx
 cpx
 cpx
@@ -112351,7 +112637,7 @@ cpx
 cpx
 cpx
 cpx
-pdm
+cpx
 cpx
 cpx
 cpx
@@ -112840,12 +113126,6 @@ cpx
 cpx
 cpx
 cpx
-kbA
-cpx
-cpx
-cpx
-cpx
-kbA
 cpx
 cpx
 cpx
@@ -112854,7 +113134,13 @@ cpx
 cpx
 cpx
 cpx
-kbA
+cpx
+cpx
+cpx
+cpx
+cpx
+cpx
+cpx
 cpx
 cpx
 cpx
@@ -113108,15 +113394,15 @@ cpx
 cpx
 cpx
 cpx
-pdm
+cpx
+cpx
+dqx
 cpx
 cpx
 cpx
 cpx
 cpx
 cpx
-cpx
-kbA
 cpx
 cpx
 cpx
@@ -113375,7 +113661,7 @@ cpx
 cpx
 cpx
 cpx
-pdm
+cpx
 cpx
 cpx
 cpx
@@ -113875,7 +114161,6 @@ cpx
 cpx
 cpx
 cpx
-kbA
 cpx
 cpx
 cpx
@@ -113893,7 +114178,8 @@ cpx
 cpx
 cpx
 cpx
-kbA
+cpx
+cpx
 cpx
 cpx
 cpx
@@ -114123,7 +114409,6 @@ pMY
 dZL
 cpx
 cpx
-kbA
 cpx
 cpx
 cpx
@@ -114134,11 +114419,12 @@ cpx
 cpx
 cpx
 cpx
+dqx
 cpx
 cpx
 cpx
 cpx
-oJH
+cpx
 cpx
 cpx
 cpx
@@ -114384,7 +114670,7 @@ cpx
 cpx
 cpx
 cpx
-pdm
+cpx
 cpx
 cpx
 cpx
@@ -114652,13 +114938,13 @@ cpx
 cpx
 cpx
 cpx
+dqx
 cpx
 cpx
 cpx
 cpx
 cpx
 cpx
-kbA
 cpx
 cpx
 cpx
@@ -114906,12 +115192,12 @@ cpx
 cpx
 cpx
 cpx
+dqx
 cpx
 cpx
 cpx
 cpx
-pdm
-pdm
+cpx
 cpx
 cpx
 cpx
@@ -115156,7 +115442,7 @@ cpx
 cpx
 cpx
 cpx
-kbA
+cpx
 cpx
 cpx
 cpx
@@ -115420,7 +115706,6 @@ cpx
 cpx
 cpx
 cpx
-kbA
 cpx
 cpx
 cpx
@@ -115434,7 +115719,8 @@ cpx
 cpx
 cpx
 cpx
-kbA
+cpx
+cpx
 cpx
 cpx
 pkJ
@@ -115937,7 +116223,7 @@ cpx
 cpx
 cpx
 cpx
-cpx
+dqx
 cpx
 cpx
 cpx
@@ -116180,11 +116466,6 @@ dZL
 cpx
 cpx
 cpx
-kbA
-cpx
-cpx
-cpx
-pdm
 cpx
 cpx
 cpx
@@ -116193,6 +116474,7 @@ cpx
 cpx
 cpx
 cpx
+dqx
 cpx
 cpx
 cpx
@@ -116200,7 +116482,11 @@ cpx
 cpx
 cpx
 cpx
-pdm
+cpx
+cpx
+cpx
+cpx
+cpx
 cpx
 cpx
 cpx
@@ -116457,7 +116743,7 @@ cpx
 cpx
 cpx
 cpx
-pdm
+cpx
 cpx
 cpx
 cpx
@@ -116702,18 +116988,18 @@ cpx
 cpx
 cpx
 cpx
-kbA
 cpx
 cpx
 cpx
 cpx
 cpx
-kbA
 cpx
 cpx
 cpx
 cpx
-kbA
+cpx
+cpx
+cpx
 cpx
 cpx
 cpx
@@ -116976,7 +117262,7 @@ cpx
 cpx
 cpx
 cpx
-kbA
+cpx
 cpx
 cpx
 pkJ
@@ -117196,7 +117482,7 @@ aae
 aae
 cpx
 cpx
-pdm
+dqx
 cpx
 pkJ
 nAt
@@ -117474,7 +117760,7 @@ cpx
 cpx
 cpx
 cpx
-pdm
+cpx
 cpx
 cpx
 cpx
@@ -117727,7 +118013,7 @@ cpx
 cpx
 cpx
 cpx
-kbA
+cpx
 cpx
 cpx
 cpx
@@ -117991,7 +118277,7 @@ cpx
 cpx
 cpx
 cpx
-kbA
+cpx
 cpx
 cpx
 cpx
@@ -118235,7 +118521,6 @@ pMY
 dZL
 cpx
 cpx
-kbA
 cpx
 cpx
 cpx
@@ -118253,9 +118538,10 @@ cpx
 cpx
 cpx
 cpx
-kbA
 cpx
-pdm
+cpx
+cpx
+cpx
 cpx
 cpx
 cpx
